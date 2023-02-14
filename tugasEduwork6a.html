@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Condition</title>
+  </head>
+  <body>
+    <!-- buatlah condition dengan kasus dimana jika 
+    x lebih besar dari y maka akan muncul pesan "Horee saya bisa!!" -->
+    <p id="test"></p>
+
+    <script>
+      let x = 10;
+      let y = 10;
+      const kata = (pesan) =>
+        (document.getElementById("test").innerHTML = pesan);
+
+      if (x > y) {
+        kata("hore berhasil");
+        console.log("Hore saya bisa!!");
+      } else if (x == y) {
+        kata("samaa!!");
+        console.log("samaa!!");
+      } else {
+        kata("gagal!!");
+        console.log("saya gagal!!");
+      }
+    </script>
+  </body>
+</html>
