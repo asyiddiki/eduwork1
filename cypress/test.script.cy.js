@@ -1,4 +1,4 @@
-/// <reference types="cypress" />
+//// <reference types="cypress" />
 
 describe('My First Test', () => {
   it("click 'type' shows the right headings", () => {
